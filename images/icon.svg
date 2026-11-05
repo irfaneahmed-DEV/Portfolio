@@ -1,0 +1,19 @@
+<span className="fs-4">      
+                    <svg viewBox="0 0 200 200" width="60" height="60" xmlns="http://www.w3.org/2000/svg">
+                    <rect rx="40" fill="white" />
+
+                    {/* Straight lines from center to each node */}
+                    <line x1="100" y1="100" x2="100" y2="38" stroke="#0d6efd" strokeWidth="6" strokeLinecap="round" />
+                    <line x1="100" y1="100" x2="162" y2="100" stroke="#0d6efd" strokeWidth="6" strokeLinecap="round" />
+                    <line x1="100" y1="100" x2="100" y2="162" stroke="#0d6efd" strokeWidth="6" strokeLinecap="round" />
+                    <line x1="100" y1="100" x2="38" y2="100" stroke="#0d6efd" strokeWidth="6" strokeLinecap="round" />
+
+                    {/* Outer nodes */}
+                    <circle cx="100" cy="38" r="12" fill="#4dabf7" />
+                    <circle cx="162" cy="100" r="12" fill="#4dabf7" />
+                    <circle cx="100" cy="162" r="12" fill="#4dabf7" />
+                    <circle cx="38" cy="100" r="12" fill="#4dabf7" />
+
+                    {/* Central hub */}
+                    <circle cx="100" cy="100" r="22" fill="#0d6efd" />
+            </svg>
